@@ -4,9 +4,7 @@ InspireMe is a dynamic web application that generates motivational quotes with e
 
 ## 🎬 Demo
 
-https://github.com/user-attachments/assets/Screen Recording 2026-03-18 234107.mp4
 
-> **Note:** If the video doesn't render above, you can watch it directly: [Screen Recording 2026-03-18 234107.mp4](./Screen%20Recording%202026-03-18%20234107.mp4)
 
 ## 🚀 Features
 
@@ -24,6 +22,6 @@ https://github.com/user-attachments/assets/Screen Recording 2026-03-18 234107.mp
 
 1. Clone the repo
    ```bash
-   git clone https://github.com/<your-username>/AI_Quest.git
+   git clone https://github.com/BobbadiBhanu/AI_Quest.git
    ```
 2. Open `index.html` in your browser — no build step needed!
