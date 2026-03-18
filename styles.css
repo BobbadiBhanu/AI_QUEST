@@ -1,0 +1,113 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling with background image */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('https://www.w3schools.com/w3images/forest.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    padding: 3rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+/* Button styling */
+button {
+    background-color: #ff7e5f;
+    color: white;
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    margin-top: 1.5rem;
+}
+
+button:hover {
+    background-color: #feb47b;
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(255, 99, 71, 0.5);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Video container styling */
+.video-container {
+    margin-top: 2rem;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+video {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Message styling */
+.message h2 {
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #ff7e5f;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Quote box styling */
+.quote-box {
+    margin-top: 20px;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.6;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* Text shadow for quotes */
+}
+
+/* Spinner styling (for loading effect) */
+.spinner {
+    border: 4px solid transparent;
+    border-top: 4px solid #ff7e5f;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

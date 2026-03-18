@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InspireMe: AI-Powered Motivational Quotes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>InspireMe</h1>
+        <div class="quote-box" id="quoteText">
+            <!-- Dynamic quote will appear here -->
+        </div>
+        <button id="generateQuoteBtn">Generate Quote</button>
+
+        <!-- "Have a Nice Day" message -->
+        <div class="message">
+            <h2>Have a Nice Day!</h2>
+        </div>
+
+        <!-- Video section -->
+        <div class="video-container">
+            <video id="inspiringVideo" controls autoplay muted>
+                <!-- You can replace the source with any video link or local video -->
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Loading spinner -->
+        <div id="loading" class="spinner"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
